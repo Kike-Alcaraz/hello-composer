@@ -1,0 +1,21 @@
+{
+    "name": "kike-alcaraz/hello-composer",
+    "description": "ICB0006-UF4-PR01",
+    "type": "package",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "kike a.r.",
+            "email": "k@email.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "KikeAlcaraz\\HelloComposer\\": "src/"
+        }
+    }
+}
